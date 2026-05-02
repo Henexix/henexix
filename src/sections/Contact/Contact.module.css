@@ -1,0 +1,138 @@
+.contact {
+    padding: 100px 5%;
+    background-color: var(--bg-black);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--text-white);
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    color: var(--text-gray);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 4rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.group label {
+    color: var(--text-white);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.group input,
+.group textarea {
+    background-color: #0A0A0A;
+    border: 1px solid #222;
+    padding: 1rem;
+    color: var(--text-white);
+    border-radius: 4px;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.group input:focus,
+.group textarea:focus {
+    outline: none;
+    border-color: var(--primary-orange);
+}
+
+.errorInput {
+    border-color: #ff4d4d !important;
+}
+
+.errorText {
+    color: #ff4d4d;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 0.2rem;
+}
+
+.submitBtn {
+    background-color: var(--primary-orange);
+    color: var(--text-white);
+    border: none;
+    padding: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.submitBtn:hover {
+    background-color: #25D366;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+
+.infoItem {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.label {
+    color: var(--primary-orange);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.value {
+    color: var(--text-white);
+    font-size: 1.1rem;
+}
+
+@media (max-width: 850px) {
+    .content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .info {
+        order: -1;
+        text-align: center;
+    }
+}
