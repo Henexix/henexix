@@ -1,5 +1,5 @@
 import styles from './App.module.css';
-import NavbarMain from './components/NavbarMain/NavbarMain';
+import NavbarMain from './components/NavBarMain/NavBarMain.jsx';
 import Hero from './sections/Hero/Hero';
 import Solutions from './sections/Solutions/Solutions';
 import Consulting from './sections/Consulting/Consulting';
