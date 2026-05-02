@@ -1,5 +1,5 @@
 import styles from './App.module.css';
-// import Navbar from './components/Navbar/Navbar';
+import NavbarMain from './components/NavbarMain/NavbarMain';
 import Hero from './sections/Hero/Hero';
 import Solutions from './sections/Solutions/Solutions';
 import Consulting from './sections/Consulting/Consulting';
@@ -9,7 +9,7 @@ import Footer from './sections/Footer/Footer';
 function App() {
   return (
     <div className={styles.container}>
-      {/* <Navbar /> */}
+      <NavbarMain />
       <main className={styles.mainContent}>
         <Hero />
         <Solutions />

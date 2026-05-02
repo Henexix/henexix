@@ -1,4 +1,4 @@
-import styles from './NavBar.module.css';
+import styles from './NavBarMain.module.css';
 import bannerImg from '../../assets/banner.jpg';
 
 const NavBar = () => {
